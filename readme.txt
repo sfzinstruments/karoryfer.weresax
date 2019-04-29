@@ -1,5 +1,7 @@
 Weresax is a sample library for Plogue Sforzando version 1.845 or newer. It contains samples of an alto saxophone.
 
+This instrument is open source, and you can do whatever you want with it; however, the XML bank contains a digital signature, and editing the XML bank will break the ability of Plogue Sforzando to load the instrument with the GUI.
+
 To register, drag the Weresax.bank.xml file onto the Sforzando interface. Once registered, Weresax will be available in the Sforzando loading menu and the GUI will work.
 
 Weresax contains three instruments based on the same samples but with different mappings and controls: sax, saxcordion (fake accordion using saxophone sounds), and sxnth (polyphonic subtractive synthesizer). The provided presets are labeled "New Moon" for sax presets, "Half Moon" for saxcordion, and "Full Moon" for sxnth.
