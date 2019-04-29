@@ -1,0 +1,91 @@
+<control>
+label_cc7=Master Vol
+label_cc10=Master Pan
+label_cc100=Attack  
+label_cc101=Hold  
+label_cc102=Decay  
+label_cc103=Sustain
+label_cc104=Release
+label_cc110=Vibrato To Wind
+label_cc111=Vibrato Depth 
+label_cc112=Vibrato Speed
+label_cc113=Tremolo Depth
+label_cc114=Synthy Vibrato
+label_cc115=Vibrato To EQ
+label_cc116=Vibrato Delay
+label_cc117=Humanize Rate
+label_cc118=Uneven Pitch
+label_cc119=Unsteady Vibrato
+label_cc120=Mic Blend
+label_cc121=Vel Contrast EQ
+label_cc122=Noise Level
+
+set_cc7=100
+set_cc10=64
+set_cc100=0
+set_cc101=0
+set_cc102=16
+set_cc103=127
+set_cc104=20
+set_cc112=32
+set_cc116=45
+set_cc117=32
+
+<global>
+amplitude_oncc7=100 //Master volume and pan
+pan=-100
+pan_oncc10=200
+
+ampeg_attack=0.001 //Basic AHDSR
+ampeg_sustain=0
+ampeg_release=0.001
+ampeg_attack_oncc100=0.3 
+ampeg_hold_oncc101=1 
+ampeg_decay_oncc102=4
+ampeg_sustain_oncc103=100
+ampeg_release_oncc104=2
+
+lfo01_pitch_oncc111=20 //Saxy vibrato LFO - goes down from the main pitch
+lfo01_freq=2
+lfo01_freq_oncc112=8
+lfo01_phase=0.25 //To make it start at the top
+lfo01_delay_oncc116=1
+pitcheg_delay_oncc116=1 //Pitch envelope to drop the central pitch when sax vibrato kicks in
+pitcheg_depth_oncc111=-20
+
+lfo02_pitch_oncc114=20 //Synthy vibrato LFO - goes below and above main pitch
+lfo02_freq=2
+lfo02_freq_oncc112=8 //Same rate as the first LFO
+lfo02_delay_oncc116=1 //Same delay, too
+lfo02_volume=0 //This LFO also does tremolo, tremolo settings for the wind noise are in the wind noise mapping file
+lfo02_volume_oncc113=3
+lfo02_phase=0.5 //To make it go down first, then up - more saxlike that way
+eq1_freq=4000 //Also can send this LFO to EQ
+eq1_bw=2
+eq1_gain=0.001 //Needs to be non-zero, apparently?
+lfo02_eq1gain_oncc115=6
+lfo02_eq1freq_oncc115=1500
+
+var01_eq1gain=9 //Also velocity tracking for the EQ, amount controlled by parameter
+var01_eq1freq=1000
+var01_mod=mult
+var01_oncc121=1 //The control multiplier
+var01_oncc131=1 //The velocity
+eq1_gain_oncc121=-6
+
+lfo03_wave=-1 //Noise LFO to humanize the other LFOs a bit, also affects wind noise - see wind noise mapping file
+lfo03_freq=0.01
+lfo03_freq_oncc117=20 //This one has its own rate indepedent of the other two
+lfo03_delay_oncc116=0.8 //A bit less than the other LFOs, so that some pitch humanization might kick in a fraction of a second before vibrato starts
+lfo3_freq_lfo1_oncc118=0.6 //Both LFOs affected the same, so they don't drift out of sync
+lfo3_freq_lfo2_oncc118=0.6
+lfo3_pitch_oncc119=6 //And some pitch drifting around
+
+bend_up=500 //I've read that good sax players can bend by a fourth, so we're going by something I read once
+bend_down=-500
+
+#include "alto_map_wind_noise.sfz"
+#include "alto_map_forte_dynamic.sfz"
+#include "alto_map_piano_dynamic.sfz"
+#include "alto_map_forte_condenser.sfz"
+#include "alto_map_piano_condenser.sfz"

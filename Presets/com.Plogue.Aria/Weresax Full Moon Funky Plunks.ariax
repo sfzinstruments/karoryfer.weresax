@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<AriaSave version="1844" productID="1014">
+    <Settings quality="1" streaming="32" maxStreamAllocMB="512" MIDIOutMode="1" automationSlot="0" automationlevel="instrument" liveMode="0" scala="01 - equal.scl" scalaCenter="60" globalTuning="0" />
+    <Slot id="0" name="Sxnth" bankId="2504" version="1000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+	    <Param id="7" value="0.65" />
+        <Param id="103" value="0" />
+        <Param id="111" value="0.07000000774860382" />
+        <Param id="115" value="0.1400000005960465" />
+        <Param id="116" value="0.5649999976158142" />
+        <Param id="118" value="0.1000000014901161" />
+        <Param id="119" value="0.1299999952316284" />
+        <Param id="121" value="0.05000000074505806" />
+        <Param id="122" value="0.1700000315904617" />
+        <Param id="123" value="0.6719685196876526" />
+        <Param id="126" value="0.8199999928474426" />
+        <Param id="131" value="0.6062992215156555" />
+    </Slot>
+</AriaSave>

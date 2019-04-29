@@ -1,0 +1,56 @@
+<GUI w="775" h="335">
+ 
+	<!-- Background -->
+
+	<StaticImage x="1" y="1" w="773" h="333" image="brass.png" transparent="0"  />
+
+
+        <!-- Top row of controls -->
+
+
+	<StaticText x="126" y="32" w="70" h="18" text="Power (CC1)" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="1" x="145" y="55" image="brown_knob.png" frames="127"   />
+
+	<StaticText x="216" y="32" w="70" h="18" text="Brightness" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="120" x="235" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="326" y="32" w="70" h="18" text="Attack" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="100" x="345" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="416" y="32" w="70" h="18" text="Release" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="104" x="435" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="526" y="32" w="70" h="18" text="Detune" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="106" x="545" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="616" y="32" w="70" h="18" text="Width" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="107" x="635" y="55" image="brown_knob.png" frames="127"  />
+
+
+        <!-- Second and third row of controls -->	
+
+	<StaticText x="320" y="132" w="80" h="18" text="Tremolo Depth" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="113" x="345" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="410" y="132" w="80" h="18" text="Tremolo Speed" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="112" x="435" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="320" y="232" w="80" h="18" text="Vibrato Depth" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="114" x="345" y="255" image="brown_knob.png" frames="127"  />
+
+
+	<StaticText x="410" y="232" w="80" h="18" text="Vibrato Speed" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="115" x="435" y="255" image="brown_knob.png" frames="127"  />
+
+
+</GUI>

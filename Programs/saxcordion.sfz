@@ -1,0 +1,65 @@
+<control>
+label_cc7=Master Vol
+label_cc10=Master Pan
+label_cc100=Attack  
+label_cc104=Release
+label_cc106=Detune
+label_cc107=Width
+label_cc1=Power 
+label_cc112=Tremolo Speed
+label_cc113=Tremolo Depth
+label_cc114=Vibrato Depth
+label_cc115=Vibrato Speed
+
+set_cc1=50
+set_cc7=100
+set_cc10=64
+set_cc100=50
+set_cc104=20
+set_cc106=64
+set_cc107=0
+set_cc112=24
+set_cc115=24
+set_cc120=40
+
+<global>
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+
+volume=-24
+volume_oncc1=24
+
+ampeg_attack=0.001
+ampeg_attack_oncc100=0.5
+ampeg_sustain=100
+ampeg_release=0.001
+ampeg_release_oncc104=1
+
+lfo01_freq=1
+lfo01_freq_oncc112=9
+lfo01_volume=0
+lfo01_volume_oncc113=-4
+
+lfo02_pitch_oncc114=20
+lfo02_freq=1
+lfo02_freq_oncc115=9
+
+cutoff=2000
+var01_cutoff=5000
+var01_mod=mult
+var01_oncc1=1
+var01_oncc120=1
+var01_curvecc120=9
+resonance=0
+fil_keytrack=50
+fil_type=lpf_1p
+
+bend_up=0
+bend_down=0
+
+#include "alto_map_saxcordion.sfz"
+
+<curve>curve_index=9
+v000=0.2
+v127=1

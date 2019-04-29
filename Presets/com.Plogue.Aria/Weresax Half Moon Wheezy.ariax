@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<AriaSave version="1838" productID="1014">
+    <Settings quality="1" streaming="32" maxStreamAllocMB="512" MIDIOutMode="1" automationSlot="0" automationlevel="instrument" liveMode="0" scala="01 - equal.scl" scalaCenter="60" globalTuning="0" />
+    <Slot id="0" name="Saxcordion" bankId="2504" version="1000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+        <Param id="100" value="0.5187007784843445" />
+        <Param id="104" value="0.2474803179502487" />
+        <Param id="106" value="0.8739370107650757" />
+        <Param id="107" value="0.08500000089406967" />
+        <Param id="120" value="0.1249606311321259" />
+        <Param id="131" value="0.5905511975288391" />
+    </Slot>
+</AriaSave>

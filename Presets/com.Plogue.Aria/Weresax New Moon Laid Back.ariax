@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<AriaSave version="1838" productID="1014">
+    <Settings quality="1" streaming="32" maxStreamAllocMB="512" MIDIOutMode="1" automationSlot="0" automationlevel="instrument" liveMode="0" scala="01 - equal.scl" scalaCenter="60" globalTuning="0" />
+    <Slot id="0" name="Sax" bankId="2504" version="1000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+        <Param id="100" value="0.08999999612569809" />
+        <Param id="104" value="0.2674803137779236" />
+        <Param id="110" value="0.7400000095367432" />
+        <Param id="111" value="0.4000000059604645" />
+        <Param id="112" value="0.09499999135732651" />
+        <Param id="113" value="0.2199999988079071" />
+        <Param id="114" value="0.09000000357627869" />
+        <Param id="115" value="0.135000005364418" />
+        <Param id="116" value="0.5250000357627869" />
+        <Param id="117" value="0.1849999874830246" />
+        <Param id="118" value="0.119999997317791" />
+        <Param id="122" value="0.6100000143051148" />
+        <Param id="131" value="0.4094488322734833" />
+    </Slot>
+
+	</AriaSave>

@@ -1,0 +1,16 @@
+<group>
+<region>
+sample=*noise
+lokey=49
+hikey=80
+amp_veltrack=44 //Lower amount of velocity tracking than notes, so noise is more prominent with quiet notes
+amplitude_oncc122=100 //Vewy vewy quiet
+ampeg_attack=0.4
+ampeg_attack_oncc141=-0.55 //Faster attack for higher notes
+lfo02_volume_oncc110=-7 //Backwards from the regular tremolo - noise gets louder when the note gets quieter
+lfo02_volume_oncc113=0 //Unaffected by regular tremolo CC
+lfo03_volume_oncc122=4 //LFO3 is random - this makes the noise less steady
+
+cutoff=3000
+fil_keytrack=40
+fil_type=lpf_1p

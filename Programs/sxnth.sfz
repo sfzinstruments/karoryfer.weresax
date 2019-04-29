@@ -1,0 +1,122 @@
+<control>
+label_cc7=Master Vol
+label_cc10=Master Pan
+label_cc100=Attack  
+label_cc101=Hold  
+label_cc102=Decay  
+label_cc103=Sustain
+label_cc104=Release
+label_cc105=Unison
+label_cc106=Detune
+label_cc107=Width
+label_cc111=Vibrato Depth 
+label_cc112=Vibrato Speed
+label_cc113=Vibrato Delay
+label_cc114=Vibrato Fade
+label_cc115=Cutoff
+label_cc116=Resonance
+label_cc119=Pluck Depth
+label_cc120=Pluck Attack
+label_cc121=Pluck Decay
+label_cc122=Wobble Depth
+label_cc123=Wobble Speed
+label_cc124=Wobble Delay
+label_cc125=Wobble Fade
+label_cc126=Highpass Cutoff
+label_cc127=Highpass Reso
+
+set_cc7=100
+set_cc10=64
+set_cc100=0  
+set_cc101=0  
+set_cc102=16
+set_cc103=127 
+set_cc104=10
+set_cc105=127
+set_cc106=50
+set_cc107=127
+set_cc111=0
+set_cc112=32
+set_cc113=0
+set_cc114=0
+set_cc115=127
+set_cc116=0
+set_cc119=0
+set_cc120=0
+set_cc121=0
+set_cc122=0
+set_cc123=32
+set_cc124=0
+set_cc125=0
+set_cc126=0
+set_cc127=0
+
+<global>
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+
+ampeg_attack=0.001
+ampeg_sustain=0
+ampeg_release=0.005
+ampeg_attack_oncc100=1
+ampeg_attack_curvecc100=8 
+ampeg_hold_oncc101=2 
+ampeg_decay_oncc102=10
+ampeg_sustain_oncc103=100
+ampeg_release_oncc104=5
+
+
+lfo01_pitch_oncc111=20
+lfo01_freq=0.5
+lfo01_freq_oncc112=9.5
+lfo01_delay_oncc113=0.3
+lfo01_fade_oncc114=0.5
+
+cutoff=200
+cutoff_cc115=8400
+resonance=0
+resonance_cc116=24
+fil_keytrack=100
+fil_veltrack=2400
+
+fileg_depth=0
+fileg_depthcc119=7900
+fileg_sustain=0
+fileg_attack=0
+fileg_attackcc120=0.5
+fileg_decay=0.001
+fileg_decaycc121=2
+
+lfo02_cutoff=0
+lfo02_cutoff_oncc122=2400
+lfo02_freq=0.5
+lfo02_freq_oncc123=9.5
+lfo02_delay_oncc124=0.3
+lfo02_fade_oncc125=0.5
+
+fil2_type=hpf_2p
+cutoff2=2400
+cutoff2_cc126=-4800
+cutoff2_curvecc126=10
+resonance2=0
+resonance2_cc127=24
+fil2_keytrack=100
+
+bend_up=1200
+bend_down=-1200
+
+#include "alto_map_sxnth_voice_1.sfz"
+#include "alto_map_sxnth_voices_23.sfz"
+#include "alto_map_sxnth_voices_45.sfz"
+
+<curve>curve_index=8
+v000=0
+v032=0.02
+v064=0.2
+v096=0.5
+v127=1
+
+<curve>curve_index=10
+v000=1
+v127=0

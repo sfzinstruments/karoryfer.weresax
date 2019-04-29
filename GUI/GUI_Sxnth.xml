@@ -1,0 +1,108 @@
+<GUI w="775" h="335">
+ 
+	<!-- Background -->
+
+	<StaticImage x="1" y="1" w="773" h="333" image="brass.png" transparent="0"  />
+
+        <!-- Top row of controls -->
+
+	<StaticText x="26" y="32" w="70" h="18" text="Attack" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="100" x="45" y="55" image="brown_knob.png" frames="127"   />
+
+	<StaticText x="116" y="32" w="70" h="18" text="Hold" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="101" x="135" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="206" y="32" w="70" h="18" text="Decay" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="102" x="225" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="296" y="32" w="70" h="18" text="Sustain" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="103" x="315" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="386" y="32" w="70" h="18" text="Release" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="104" x="405" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="496" y="32" w="70" h="18" text="Unison" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="105" x="515" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="586" y="32" w="70" h="18" text="Detune" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="106" x="605" y="55" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="676" y="32" w="70" h="18" text="Width" color_text="#FFFFFFFF" transparent="1"/>
+	
+	<Knob param="107" x="695" y="55" image="brown_knob.png" frames="127"  />
+
+
+        <!-- Second row of controls -->	
+
+	<StaticText x="19" y="132" w="80" h="18" text="Vibrato Depth" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="111" x="45" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="109" y="132" w="80" h="18" text="Speed" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="112" x="135" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="199" y="132" w="80" h="18" text="Delay" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="113" x="225" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="289" y="132" w="80" h="18" text="Fade" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="114" x="315" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="389" y="132" w="80" h="18" text="Lowpass Cutoff" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="115" x="415" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="479" y="132" w="80" h="18" text="Resonance" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="116" x="505" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="579" y="132" w="80" h="18" text="Highpass Cutoff" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="126" x="605" y="155" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="669" y="132" w="80" h="18" text="Resonance" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="127" x="695" y="155" image="brown_knob.png" frames="127"  />
+
+        <!-- Third row of controls -->
+
+	<StaticText x="19" y="232" w="80" h="18" text="Pluck Depth" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="119" x="45" y="255" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="109" y="232" w="80" h="18" text="Attack" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="120" x="135" y="255" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="199" y="232" w="80" h="18" text="Decay" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="121" x="225" y="255" image="brown_knob.png" frames="127"  />
+
+
+	<StaticText x="399" y="232" w="80" h="18" text="Wobble Depth" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="122" x="425" y="255" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="489" y="232" w="80" h="18" text="Speed" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="123" x="515" y="255" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="579" y="232" w="80" h="18" text="Delay" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="124" x="605" y="255" image="brown_knob.png" frames="127"  />
+
+	<StaticText x="669" y="232" w="80" h="18" text="Fade" color_text="#FFFFFFFF" transparent="1" />
+	
+	<Knob param="125" x="695" y="255" image="brown_knob.png" frames="127"  />
+
+
+</GUI>
