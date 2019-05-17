@@ -10,23 +10,23 @@
 
 	<StaticText x="126"  y="32" w="70" h="18" text="Attack" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="100" x="145"  y="55" image="brown_knob.png" frames="127"   />
+	<Knob param="100" x="145"  y="55" image="brown_knob.png" frames="128"   />
 
 	<StaticText x="216"  y="32" w="70" h="18" text="Hold" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="101" x="235"  y="55" image="brown_knob.png" frames="127"  />
+	<Knob param="101" x="235"  y="55" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="306"  y="32" w="70" h="18" text="Decay" color_text="#FFFFFFFF" transparent="1"/>
 	
-	<Knob param="102" x="325"  y="55" image="brown_knob.png" frames="127"  />
+	<Knob param="102" x="325"  y="55" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="396"  y="32" w="70" h="18" text="Sustain" color_text="#FFFFFFFF" transparent="1"/>
 	
-	<Knob param="103" x="415"  y="55" image="brown_knob.png" frames="127"  />
+	<Knob param="103" x="415"  y="55" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="486"  y="32" w="70" h="18" text="Release" color_text="#FFFFFFFF" transparent="1"/>
 	
-	<Knob param="104" x="505"  y="55" image="brown_knob.png" frames="127"  />
+	<Knob param="104" x="505"  y="55" image="brown_knob.png" frames="128"  />
 
 
         <!-- Second row of controls - vibrato -->	
@@ -36,15 +36,15 @@
 
 	<StaticText x="119"  y="132" w="80" h="18" text="Sax Style" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="111" x="145"  y="155" image="brown_knob.png" frames="127"  />
+	<Knob param="111" x="145"  y="155" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="209"  y="132" w="80" h="18" text="Synth Style" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="114" x="235"  y="155" image="brown_knob.png" frames="127"  />
+	<Knob param="114" x="235"  y="155" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="299"  y="132" w="80" h="18" text="Tremolo" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="113" x="325"  y="155" image="brown_knob.png" frames="127"  />
+	<Knob param="113" x="325"  y="155" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="389"  y="132" w="80" h="18" text="Brightness" color_text="#FFFFFFFF" transparent="1" />
 	
@@ -52,15 +52,15 @@
 
 	<StaticText x="479"  y="132" w="80" h="18" text="Wind Noise" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="110" x="505"  y="155" image="brown_knob.png" frames="127"  />
+	<Knob param="110" x="505"  y="155" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="569"  y="132" w="80" h="18" text="Speed" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="112" x="595"  y="155" image="brown_knob.png" frames="127"  />
+	<Knob param="112" x="595"  y="155" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="659"  y="132" w="80" h="18" text="Delay" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="116" x="685"  y="155" image="brown_knob.png" frames="127"  />
+	<Knob param="116" x="685"  y="155" image="brown_knob.png" frames="128"  />
 
 
         <!-- Third row of controls - humanization and tone color -->
@@ -69,26 +69,26 @@
 
 	<StaticText x="119" y="232" w="80" h="18" text="Change Rate" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="117" x="145" y="255" image="brown_knob.png" frames="127"  />
+	<Knob param="117" x="145" y="255" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="209" y="232" w="80" h="18" text="Uneven Vibrato" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="118" x="235" y="255" image="brown_knob.png" frames="127"  />
+	<Knob param="118" x="235" y="255" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="299" y="232" w="80" h="18" text="Unsteady Pitch" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="119" x="325" y="255" image="brown_knob.png" frames="127"  />
+	<Knob param="119" x="325" y="255" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="479" y="232" w="80" h="18" text="Vel To EQ" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="121" x="505" y="255" image="brown_knob.png" frames="127"  />
+	<Knob param="121" x="505" y="255" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="569" y="232" w="80" h="18" text="Wind Noise" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="122" x="595" y="255" image="brown_knob.png" frames="127"  />
+	<Knob param="122" x="595" y="255" image="brown_knob.png" frames="128"  />
 
 	<StaticText x="659" y="232" w="80" h="18" text="Mic Blend" color_text="#FFFFFFFF" transparent="1" />
 	
-	<Knob param="120" x="685" y="255" image="brown_knob.png" frames="127"  />
+	<Knob param="120" x="685" y="255" image="brown_knob.png" frames="128"  />
 
 </GUI>
